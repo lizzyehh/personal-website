@@ -15,19 +15,19 @@ export default function Header({ title }){
       <a
         href="mailto:lizr.yeh@gmail.com"
         className="p-2"
-        ><FaEnvelope /></a>
+        >Email</a>
       <a
         href="/ElizabethYehResume.pdf"
         target="_blank"
         className="p-2"
-        ><FaFilePdf /></a>
+        >Resume</a>
 
         <a
         href="https://www.linkedin.com/in/lizyeh"
         target="_blank"
         rel="noopener noreferrer"
         className="p-2"
-        ><FaLinkedin /></a>
+        >LinkedIn</a>
     </div>
   );
 }
