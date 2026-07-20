@@ -1,6 +1,5 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from "react-icons/fa";
 
 export default function Header({ title }){
     const router = useRouter();
