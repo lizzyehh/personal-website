@@ -16,6 +16,30 @@
     --primary-blue: #0515a0;
     --primary-dark: rgba(255, 255, 255, 0);
 }
+
+@import "tailwindcss";
+
+@layer utilities {
+    .text-primary-brown {
+        color: #562c04;
+    }
+    .text-primary-ltbrown {
+        color: #7a3d05;
+    }
+    .text-primary-orange {
+        color: rgb(255, 149, 0);
+    }
+    .text-primary-ltorange {
+        color: rgb(252, 179, 44);
+    }
+    .text-primary-blue {
+        color: #0515a0;
+    }
+    .text-primary-dark {
+        color: rgba(255, 255, 255, 0);
+    }
+}
+
 @layer base{
     body {
             font-family: "BBH Bogle", sans-serif;
@@ -25,13 +49,13 @@
         }
     
         h1 {
-            @apply text-7xl;
+            @apply text-5xl;
         }
         h2 {
-            @apply text-4xl;
+            @apply text-3xl;
         }
         h3 {
-            @apply text-3xl;
+            @apply text-2xl;
         }
         a {
             @apply text-xl;

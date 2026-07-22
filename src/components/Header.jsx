@@ -3,20 +3,20 @@ import Image from "next/image";
 
 export default function Header({ title }){
     return(
-        <header className="flex justify-between items-center p-2 px-8 bg-blue-300">
-            <h2 className="flex justify-between items-center p-2">
-                <div className="mx-2">
+        <header className="flex justify-between items-center p-4 px-4 bg-blue-300">
+            <h3 className="flex justify-between items-center">
+                <div className="ml-1 leading-none">
                     {title}
                 </div>
                 <Image 
                     src="/brown-star.png"
                     alt="Brown Star Icon"
-                    width={40}
-                    height={40}
+                    width={30}
+                    height={30}
                 />
-            </h2>
+            </h3>
 
-            <nav className="flex gap-6">
+            <nav className="flex gap-3">
                 <Link href="/" className="nav-link">Home</Link>
                 <Link href="/about" className="nav-link">About</Link>
                 <Link href="/projects" className="nav-link">Projects</Link>
